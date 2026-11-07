@@ -5,8 +5,10 @@
     "en": {
       "text": "The quick brown fox jumps over the lazy dog.",
       "chars": 44,
+      "utf8_bytes": 44,
       "tokens": 10,
       "chars_per_token": 4.4,
+      "ratio_to_en": 1.0,
       "pieces": [
         "The",
         " quick",
@@ -23,8 +25,10 @@
     "ru": {
       "text": "Быстрая коричневая лиса перепрыгивает через ленивую собаку.",
       "chars": 59,
+      "utf8_bytes": 111,
       "tokens": 30,
       "chars_per_token": 1.97,
+      "ratio_to_en": 3.0,
       "pieces": [
         "Б",
         "ы",
@@ -58,7 +62,91 @@
         "."
       ]
     },
-    "ratio_ru_to_en": 3.0
+    "ru_lat": {
+      "text": "Bystraya korichnevaya lisa pereprygivaet cherez lenivuyu sobaku.",
+      "chars": 64,
+      "utf8_bytes": 64,
+      "tokens": 24,
+      "chars_per_token": 2.67,
+      "ratio_to_en": 2.4,
+      "pieces": [
+        "By",
+        "str",
+        "aya",
+        " kor",
+        "ich",
+        "nev",
+        "aya",
+        " l",
+        "isa",
+        " p",
+        "ere",
+        "pr",
+        "yg",
+        "iva",
+        "et",
+        " ch",
+        "erez",
+        " len",
+        "iv",
+        "uy",
+        "u",
+        " sob",
+        "aku",
+        "."
+      ]
+    },
+    "kk": {
+      "text": "Жылдам қоңыр түлкі жалқау итті аттап өтеді.",
+      "chars": 43,
+      "utf8_bytes": 79,
+      "tokens": 41,
+      "chars_per_token": 1.05,
+      "ratio_to_en": 4.1,
+      "pieces": [
+        "<D0>",
+        "<96>",
+        "ы",
+        "л",
+        "д",
+        "ам",
+        " ",
+        "<D2>",
+        "<9B>",
+        "о",
+        "<D2>",
+        "<A3>",
+        "ы",
+        "р",
+        " т",
+        "<D2>",
+        "<AF>",
+        "л",
+        "к",
+        "і",
+        " ж",
+        "ал",
+        "<D2>",
+        "<9B>",
+        "а",
+        "у",
+        " и",
+        "т",
+        "т",
+        "і",
+        " а",
+        "т",
+        "т",
+        "ап",
+        " ",
+        "<D3>",
+        "<A9>",
+        "т",
+        "ед",
+        "і",
+        "."
+      ]
+    }
   },
   {
     "encoding": "cl100k_base",
@@ -66,8 +154,10 @@
     "en": {
       "text": "Hello, world! How are you today?",
       "chars": 32,
+      "utf8_bytes": 32,
       "tokens": 9,
       "chars_per_token": 3.56,
+      "ratio_to_en": 1.0,
       "pieces": [
         "Hello",
         ",",
@@ -83,8 +173,10 @@
     "ru": {
       "text": "Привет, мир! Как у тебя дела сегодня?",
       "chars": 37,
+      "utf8_bytes": 65,
       "tokens": 20,
       "chars_per_token": 1.85,
+      "ratio_to_en": 2.22,
       "pieces": [
         "Пр",
         "ив",
@@ -108,7 +200,66 @@
         "?"
       ]
     },
-    "ratio_ru_to_en": 2.22
+    "ru_lat": {
+      "text": "Privet, mir! Kak u tebya dela segodnya?",
+      "chars": 39,
+      "utf8_bytes": 39,
+      "tokens": 15,
+      "chars_per_token": 2.6,
+      "ratio_to_en": 1.67,
+      "pieces": [
+        "Priv",
+        "et",
+        ",",
+        " mir",
+        "!",
+        " Kak",
+        " u",
+        " te",
+        "by",
+        "a",
+        " dela",
+        " seg",
+        "od",
+        "nya",
+        "?"
+      ]
+    },
+    "kk": {
+      "text": "Сәлем, әлем! Бүгін қалайсың?",
+      "chars": 28,
+      "utf8_bytes": 50,
+      "tokens": 25,
+      "chars_per_token": 1.12,
+      "ratio_to_en": 2.78,
+      "pieces": [
+        "С",
+        "<D3>",
+        "<99>",
+        "лем",
+        ",",
+        " ",
+        "<D3>",
+        "<99>",
+        "лем",
+        "!",
+        " Б",
+        "<D2>",
+        "<AF>",
+        "г",
+        "і",
+        "н",
+        " ",
+        "<D2>",
+        "<9B>",
+        "ал",
+        "ай",
+        "сы",
+        "<D2>",
+        "<A3>",
+        "?"
+      ]
+    }
   },
   {
     "encoding": "cl100k_base",
@@ -116,8 +267,10 @@
     "en": {
       "text": "A token is a piece of text that a language model works with.",
       "chars": 60,
+      "utf8_bytes": 60,
       "tokens": 14,
       "chars_per_token": 4.29,
+      "ratio_to_en": 1.0,
       "pieces": [
         "A",
         " token",
@@ -138,8 +291,10 @@
     "ru": {
       "text": "Токен — это кусочек текста, с которым работает языковая модель.",
       "chars": 63,
+      "utf8_bytes": 116,
       "tokens": 26,
       "chars_per_token": 2.42,
+      "ratio_to_en": 1.86,
       "pieces": [
         "Т",
         "ок",
@@ -169,7 +324,88 @@
         "."
       ]
     },
-    "ratio_ru_to_en": 1.86
+    "ru_lat": {
+      "text": "Token — eto kusochek teksta, s kotorym rabotaet yazykovaya model.",
+      "chars": 65,
+      "utf8_bytes": 67,
+      "tokens": 24,
+      "chars_per_token": 2.71,
+      "ratio_to_en": 1.71,
+      "pieces": [
+        "Token",
+        " —",
+        " et",
+        "o",
+        " k",
+        "us",
+        "och",
+        "ek",
+        " tek",
+        "sta",
+        ",",
+        " s",
+        " kot",
+        "ory",
+        "m",
+        " rab",
+        "ota",
+        "et",
+        " y",
+        "azy",
+        "kov",
+        "aya",
+        " model",
+        "."
+      ]
+    },
+    "kk": {
+      "text": "Токен — тілдік модель жұмыс істейтін мәтін бөлігі.",
+      "chars": 50,
+      "utf8_bytes": 93,
+      "tokens": 38,
+      "chars_per_token": 1.32,
+      "ratio_to_en": 2.71,
+      "pieces": [
+        "Т",
+        "ок",
+        "ен",
+        " —",
+        " т",
+        "і",
+        "л",
+        "д",
+        "і",
+        "к",
+        " мод",
+        "ель",
+        " ж",
+        "<D2>",
+        "<B1>",
+        "м",
+        "ы",
+        "с",
+        " і",
+        "ст",
+        "ей",
+        "т",
+        "і",
+        "н",
+        " м",
+        "<D3>",
+        "<99>",
+        "т",
+        "і",
+        "н",
+        " б",
+        "<D3>",
+        "<A9>",
+        "л",
+        "і",
+        "г",
+        "і",
+        "."
+      ]
+    }
   },
   {
     "encoding": "o200k_base",
@@ -177,8 +413,10 @@
     "en": {
       "text": "The quick brown fox jumps over the lazy dog.",
       "chars": 44,
+      "utf8_bytes": 44,
       "tokens": 10,
       "chars_per_token": 4.4,
+      "ratio_to_en": 1.0,
       "pieces": [
         "The",
         " quick",
@@ -195,8 +433,10 @@
     "ru": {
       "text": "Быстрая коричневая лиса перепрыгивает через ленивую собаку.",
       "chars": 59,
+      "utf8_bytes": 111,
       "tokens": 20,
       "chars_per_token": 2.95,
+      "ratio_to_en": 2.0,
       "pieces": [
         "Б",
         "ы",
@@ -220,7 +460,65 @@
         "."
       ]
     },
-    "ratio_ru_to_en": 2.0
+    "ru_lat": {
+      "text": "Bystraya korichnevaya lisa pereprygivaet cherez lenivuyu sobaku.",
+      "chars": 64,
+      "utf8_bytes": 64,
+      "tokens": 21,
+      "chars_per_token": 3.05,
+      "ratio_to_en": 2.1,
+      "pieces": [
+        "By",
+        "str",
+        "aya",
+        " kor",
+        "ich",
+        "nev",
+        "aya",
+        " lisa",
+        " pere",
+        "pr",
+        "yg",
+        "iva",
+        "et",
+        " ch",
+        "erez",
+        " len",
+        "iv",
+        "uyu",
+        " sob",
+        "aku",
+        "."
+      ]
+    },
+    "kk": {
+      "text": "Жылдам қоңыр түлкі жалқау итті аттап өтеді.",
+      "chars": 43,
+      "utf8_bytes": 79,
+      "tokens": 18,
+      "chars_per_token": 2.39,
+      "ratio_to_en": 1.8,
+      "pieces": [
+        "Ж",
+        "ыл",
+        "дам",
+        " қ",
+        "оң",
+        "ыр",
+        " түл",
+        "кі",
+        " жал",
+        "қа",
+        "у",
+        " ит",
+        "ті",
+        " ат",
+        "тап",
+        " өт",
+        "еді",
+        "."
+      ]
+    }
   },
   {
     "encoding": "o200k_base",
@@ -228,8 +526,10 @@
     "en": {
       "text": "Hello, world! How are you today?",
       "chars": 32,
+      "utf8_bytes": 32,
       "tokens": 9,
       "chars_per_token": 3.56,
+      "ratio_to_en": 1.0,
       "pieces": [
         "Hello",
         ",",
@@ -245,8 +545,10 @@
     "ru": {
       "text": "Привет, мир! Как у тебя дела сегодня?",
       "chars": 37,
+      "utf8_bytes": 65,
       "tokens": 11,
       "chars_per_token": 3.36,
+      "ratio_to_en": 1.22,
       "pieces": [
         "Пр",
         "ивет",
@@ -261,7 +563,53 @@
         "?"
       ]
     },
-    "ratio_ru_to_en": 1.22
+    "ru_lat": {
+      "text": "Privet, mir! Kak u tebya dela segodnya?",
+      "chars": 39,
+      "utf8_bytes": 39,
+      "tokens": 14,
+      "chars_per_token": 2.79,
+      "ratio_to_en": 1.56,
+      "pieces": [
+        "Priv",
+        "et",
+        ",",
+        " mir",
+        "!",
+        " Kak",
+        " u",
+        " teb",
+        "ya",
+        " dela",
+        " seg",
+        "od",
+        "nya",
+        "?"
+      ]
+    },
+    "kk": {
+      "text": "Сәлем, әлем! Бүгін қалайсың?",
+      "chars": 28,
+      "utf8_bytes": 50,
+      "tokens": 13,
+      "chars_per_token": 2.15,
+      "ratio_to_en": 1.44,
+      "pieces": [
+        "С",
+        "әл",
+        "ем",
+        ",",
+        " әлем",
+        "!",
+        " Б",
+        "үг",
+        "ін",
+        " қалай",
+        "сы",
+        "ң",
+        "?"
+      ]
+    }
   },
   {
     "encoding": "o200k_base",
@@ -269,8 +617,10 @@
     "en": {
       "text": "A token is a piece of text that a language model works with.",
       "chars": 60,
+      "utf8_bytes": 60,
       "tokens": 14,
       "chars_per_token": 4.29,
+      "ratio_to_en": 1.0,
       "pieces": [
         "A",
         " token",
@@ -291,8 +641,10 @@
     "ru": {
       "text": "Токен — это кусочек текста, с которым работает языковая модель.",
       "chars": 63,
+      "utf8_bytes": 116,
       "tokens": 17,
       "chars_per_token": 3.71,
+      "ratio_to_en": 1.21,
       "pieces": [
         "Т",
         "ок",
@@ -313,6 +665,62 @@
         "."
       ]
     },
-    "ratio_ru_to_en": 1.21
+    "ru_lat": {
+      "text": "Token — eto kusochek teksta, s kotorym rabotaet yazykovaya model.",
+      "chars": 65,
+      "utf8_bytes": 67,
+      "tokens": 22,
+      "chars_per_token": 2.95,
+      "ratio_to_en": 1.57,
+      "pieces": [
+        "Token",
+        " —",
+        " eto",
+        " kus",
+        "oche",
+        "k",
+        " tek",
+        "sta",
+        ",",
+        " s",
+        " kot",
+        "ory",
+        "m",
+        " rab",
+        "ota",
+        "et",
+        " yaz",
+        "yk",
+        "ov",
+        "aya",
+        " model",
+        "."
+      ]
+    },
+    "kk": {
+      "text": "Токен — тілдік модель жұмыс істейтін мәтін бөлігі.",
+      "chars": 50,
+      "utf8_bytes": 93,
+      "tokens": 15,
+      "chars_per_token": 3.33,
+      "ratio_to_en": 1.07,
+      "pieces": [
+        "Т",
+        "ок",
+        "ен",
+        " —",
+        " тіл",
+        "дік",
+        " модель",
+        " жұмыс",
+        " іст",
+        "ейтін",
+        " мәт",
+        "ін",
+        " бө",
+        "лігі",
+        "."
+      ]
+    }
   }
 ]
