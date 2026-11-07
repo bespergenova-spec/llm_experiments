@@ -1,0 +1,318 @@
+[
+  {
+    "encoding": "cl100k_base",
+    "phrase": "pangram",
+    "en": {
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "chars": 44,
+      "tokens": 10,
+      "chars_per_token": 4.4,
+      "pieces": [
+        "The",
+        " quick",
+        " brown",
+        " fox",
+        " jumps",
+        " over",
+        " the",
+        " lazy",
+        " dog",
+        "."
+      ]
+    },
+    "ru": {
+      "text": "Быстрая коричневая лиса перепрыгивает через ленивую собаку.",
+      "chars": 59,
+      "tokens": 30,
+      "chars_per_token": 1.97,
+      "pieces": [
+        "Б",
+        "ы",
+        "ст",
+        "ра",
+        "я",
+        " кор",
+        "ич",
+        "н",
+        "ев",
+        "ая",
+        " л",
+        "ис",
+        "а",
+        " пер",
+        "еп",
+        "ры",
+        "г",
+        "ив",
+        "ает",
+        " чер",
+        "ез",
+        " л",
+        "ени",
+        "в",
+        "ую",
+        " с",
+        "об",
+        "ак",
+        "у",
+        "."
+      ]
+    },
+    "ratio_ru_to_en": 3.0
+  },
+  {
+    "encoding": "cl100k_base",
+    "phrase": "greeting",
+    "en": {
+      "text": "Hello, world! How are you today?",
+      "chars": 32,
+      "tokens": 9,
+      "chars_per_token": 3.56,
+      "pieces": [
+        "Hello",
+        ",",
+        " world",
+        "!",
+        " How",
+        " are",
+        " you",
+        " today",
+        "?"
+      ]
+    },
+    "ru": {
+      "text": "Привет, мир! Как у тебя дела сегодня?",
+      "chars": 37,
+      "tokens": 20,
+      "chars_per_token": 1.85,
+      "pieces": [
+        "Пр",
+        "ив",
+        "ет",
+        ",",
+        " м",
+        "ир",
+        "!",
+        " К",
+        "ак",
+        " у",
+        " т",
+        "еб",
+        "я",
+        " дел",
+        "а",
+        " с",
+        "ег",
+        "од",
+        "ня",
+        "?"
+      ]
+    },
+    "ratio_ru_to_en": 2.22
+  },
+  {
+    "encoding": "cl100k_base",
+    "phrase": "tokenization",
+    "en": {
+      "text": "A token is a piece of text that a language model works with.",
+      "chars": 60,
+      "tokens": 14,
+      "chars_per_token": 4.29,
+      "pieces": [
+        "A",
+        " token",
+        " is",
+        " a",
+        " piece",
+        " of",
+        " text",
+        " that",
+        " a",
+        " language",
+        " model",
+        " works",
+        " with",
+        "."
+      ]
+    },
+    "ru": {
+      "text": "Токен — это кусочек текста, с которым работает языковая модель.",
+      "chars": 63,
+      "tokens": 26,
+      "chars_per_token": 2.42,
+      "pieces": [
+        "Т",
+        "ок",
+        "ен",
+        " —",
+        " это",
+        " к",
+        "ус",
+        "оч",
+        "ек",
+        " текст",
+        "а",
+        ",",
+        " с",
+        " котор",
+        "ы",
+        "м",
+        " работ",
+        "ает",
+        " я",
+        "з",
+        "ы",
+        "ков",
+        "ая",
+        " мод",
+        "ель",
+        "."
+      ]
+    },
+    "ratio_ru_to_en": 1.86
+  },
+  {
+    "encoding": "o200k_base",
+    "phrase": "pangram",
+    "en": {
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "chars": 44,
+      "tokens": 10,
+      "chars_per_token": 4.4,
+      "pieces": [
+        "The",
+        " quick",
+        " brown",
+        " fox",
+        " jumps",
+        " over",
+        " the",
+        " lazy",
+        " dog",
+        "."
+      ]
+    },
+    "ru": {
+      "text": "Быстрая коричневая лиса перепрыгивает через ленивую собаку.",
+      "chars": 59,
+      "tokens": 20,
+      "chars_per_token": 2.95,
+      "pieces": [
+        "Б",
+        "ы",
+        "стра",
+        "я",
+        " кор",
+        "ич",
+        "не",
+        "вая",
+        " л",
+        "иса",
+        " переп",
+        "рыг",
+        "ивает",
+        " через",
+        " лен",
+        "ив",
+        "ую",
+        " соб",
+        "аку",
+        "."
+      ]
+    },
+    "ratio_ru_to_en": 2.0
+  },
+  {
+    "encoding": "o200k_base",
+    "phrase": "greeting",
+    "en": {
+      "text": "Hello, world! How are you today?",
+      "chars": 32,
+      "tokens": 9,
+      "chars_per_token": 3.56,
+      "pieces": [
+        "Hello",
+        ",",
+        " world",
+        "!",
+        " How",
+        " are",
+        " you",
+        " today",
+        "?"
+      ]
+    },
+    "ru": {
+      "text": "Привет, мир! Как у тебя дела сегодня?",
+      "chars": 37,
+      "tokens": 11,
+      "chars_per_token": 3.36,
+      "pieces": [
+        "Пр",
+        "ивет",
+        ",",
+        " мир",
+        "!",
+        " Как",
+        " у",
+        " тебя",
+        " дела",
+        " сегодня",
+        "?"
+      ]
+    },
+    "ratio_ru_to_en": 1.22
+  },
+  {
+    "encoding": "o200k_base",
+    "phrase": "tokenization",
+    "en": {
+      "text": "A token is a piece of text that a language model works with.",
+      "chars": 60,
+      "tokens": 14,
+      "chars_per_token": 4.29,
+      "pieces": [
+        "A",
+        " token",
+        " is",
+        " a",
+        " piece",
+        " of",
+        " text",
+        " that",
+        " a",
+        " language",
+        " model",
+        " works",
+        " with",
+        "."
+      ]
+    },
+    "ru": {
+      "text": "Токен — это кусочек текста, с которым работает языковая модель.",
+      "chars": 63,
+      "tokens": 17,
+      "chars_per_token": 3.71,
+      "pieces": [
+        "Т",
+        "ок",
+        "ен",
+        " —",
+        " это",
+        " кус",
+        "очек",
+        " текста",
+        ",",
+        " с",
+        " которым",
+        " работает",
+        " язы",
+        "ков",
+        "ая",
+        " модель",
+        "."
+      ]
+    },
+    "ratio_ru_to_en": 1.21
+  }
+]
