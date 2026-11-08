@@ -1,0 +1,288 @@
+[
+  {
+    "model": "OpenAI GPT-4 (cl100k_base)",
+    "source": "cl100k_base",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 30,
+        "ru_lat": 24,
+        "kk": 41
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 20,
+        "ru_lat": 15,
+        "kk": 25
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 26,
+        "ru_lat": 24,
+        "kk": 38
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 76,
+      "ru_lat": 63,
+      "kk": 104
+    }
+  },
+  {
+    "model": "OpenAI GPT-4o / 4.1 / 5 / o-серия (o200k_base)",
+    "source": "o200k_base",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 20,
+        "ru_lat": 21,
+        "kk": 18
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 11,
+        "ru_lat": 14,
+        "kk": 13
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 17,
+        "ru_lat": 22,
+        "kk": 15
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 48,
+      "ru_lat": 57,
+      "kk": 46
+    }
+  },
+  {
+    "model": "OpenAI gpt-oss",
+    "source": "openai/gpt-oss-20b",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 20,
+        "ru_lat": 21,
+        "kk": 18
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 11,
+        "ru_lat": 14,
+        "kk": 13
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 17,
+        "ru_lat": 22,
+        "kk": 15
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 48,
+      "ru_lat": 57,
+      "kk": 46
+    }
+  },
+  {
+    "model": "Anthropic Claude 1/2 (старый)",
+    "source": "Xenova/claude-tokenizer",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 33,
+        "ru_lat": 27,
+        "kk": 41
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 22,
+        "ru_lat": 18,
+        "kk": 26
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 29,
+        "ru_lat": 27,
+        "kk": 40
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 84,
+      "ru_lat": 72,
+      "kk": 107
+    }
+  },
+  {
+    "model": "Qwen3",
+    "source": "Qwen/Qwen3-8B",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 24,
+        "ru_lat": 24,
+        "kk": 35
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 12,
+        "ru_lat": 15,
+        "kk": 20
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 20,
+        "ru_lat": 24,
+        "kk": 33
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 56,
+      "ru_lat": 63,
+      "kk": 88
+    }
+  },
+  {
+    "model": "DeepSeek-V3",
+    "source": "deepseek-ai/DeepSeek-V3",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 23,
+        "ru_lat": 26,
+        "kk": 24
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 12,
+        "ru_lat": 15,
+        "kk": 18
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 19,
+        "ru_lat": 25,
+        "kk": 26
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 54,
+      "ru_lat": 66,
+      "kk": 68
+    }
+  },
+  {
+    "model": "Mistral Nemo (Tekken)",
+    "source": "mistralai/Mistral-Nemo-Instruct-2407",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 22,
+        "ru_lat": 23,
+        "kk": 22
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 11,
+        "ru_lat": 15,
+        "kk": 15
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 18,
+        "ru_lat": 23,
+        "kk": 20
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 51,
+      "ru_lat": 61,
+      "kk": 57
+    }
+  },
+  {
+    "model": "Gemma 3",
+    "source": "unsloth/gemma-3-4b-it",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 18,
+        "ru_lat": 21,
+        "kk": 20
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 10,
+        "ru_lat": 15,
+        "kk": 15
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 15,
+        "ru_lat": 23,
+        "kk": 22
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 43,
+      "ru_lat": 59,
+      "kk": 57
+    }
+  },
+  {
+    "model": "Llama 3.1",
+    "source": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 24,
+        "ru_lat": 23,
+        "kk": 31
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 12,
+        "ru_lat": 15,
+        "kk": 23
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 18,
+        "ru_lat": 23,
+        "kk": 31
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 54,
+      "ru_lat": 61,
+      "kk": 85
+    }
+  },
+  {
+    "model": "Anthropic claude-sonnet-5-5 (API count_tokens)",
+    "source": "claude-sonnet-5-5",
+    "error": "пропущено: нет ANTHROPIC_API_KEY",
+    "phrases": {},
+    "totals": {}
+  }
+]
