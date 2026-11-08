@@ -279,6 +279,316 @@
     }
   },
   {
+    "model": "Llama 4 Scout",
+    "source": "unsloth/Llama-4-Scout-17B-16E-Instruct",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 18,
+        "ru_lat": 22,
+        "kk": 21
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 11,
+        "ru_lat": 15,
+        "kk": 15
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 17,
+        "ru_lat": 23,
+        "kk": 17
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 46,
+      "ru_lat": 60,
+      "kk": 53
+    }
+  },
+  {
+    "model": "Qwen3.5",
+    "source": "Qwen/Qwen3.5-397B-A17B",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 21,
+        "ru_lat": 22,
+        "kk": 21
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 12,
+        "ru_lat": 15,
+        "kk": 17
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 17,
+        "ru_lat": 23,
+        "kk": 24
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 50,
+      "ru_lat": 60,
+      "kk": 62
+    }
+  },
+  {
+    "model": "DeepSeek-V3.2",
+    "source": "deepseek-ai/DeepSeek-V3.2",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 23,
+        "ru_lat": 26,
+        "kk": 24
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 12,
+        "ru_lat": 15,
+        "kk": 18
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 19,
+        "ru_lat": 25,
+        "kk": 26
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 54,
+      "ru_lat": 66,
+      "kk": 68
+    }
+  },
+  {
+    "model": "GLM-5 (Z.ai)",
+    "source": "zai-org/GLM-5",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 20,
+        "ru_lat": 24,
+        "kk": 28
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 11,
+        "ru_lat": 15,
+        "kk": 19
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 18,
+        "ru_lat": 24,
+        "kk": 27
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 49,
+      "ru_lat": 63,
+      "kk": 74
+    }
+  },
+  {
+    "model": "Gemma 4",
+    "source": "google/gemma-4-31B-it",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 18,
+        "ru_lat": 21,
+        "kk": 20
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 10,
+        "ru_lat": 15,
+        "kk": 15
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 15,
+        "ru_lat": 23,
+        "kk": 22
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 43,
+      "ru_lat": 59,
+      "kk": 57
+    }
+  },
+  {
+    "model": "MiniMax-M2",
+    "source": "MiniMaxAI/MiniMax-M2",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 24,
+        "ru_lat": 21,
+        "kk": 29
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 12,
+        "ru_lat": 15,
+        "kk": 19
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 22,
+        "ru_lat": 23,
+        "kk": 28
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 58,
+      "ru_lat": 59,
+      "kk": 76
+    }
+  },
+  {
+    "model": "OLMo 3",
+    "source": "allenai/Olmo-3-7B-Instruct",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 30,
+        "ru_lat": 24,
+        "kk": 41
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 20,
+        "ru_lat": 15,
+        "kk": 25
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 26,
+        "ru_lat": 24,
+        "kk": 38
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 76,
+      "ru_lat": 63,
+      "kk": 104
+    }
+  },
+  {
+    "model": "NVIDIA Nemotron Nano v2",
+    "source": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 22,
+        "ru_lat": 23,
+        "kk": 22
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 11,
+        "ru_lat": 15,
+        "kk": 15
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 18,
+        "ru_lat": 23,
+        "kk": 20
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 51,
+      "ru_lat": 61,
+      "kk": 57
+    }
+  },
+  {
+    "model": "IBM Granite 4.0",
+    "source": "ibm-granite/granite-4.0-h-small",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 30,
+        "ru_lat": 24,
+        "kk": 41
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 20,
+        "ru_lat": 15,
+        "kk": 25
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 26,
+        "ru_lat": 24,
+        "kk": 38
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 76,
+      "ru_lat": 63,
+      "kk": 104
+    }
+  },
+  {
+    "model": "Microsoft Phi-4",
+    "source": "microsoft/phi-4",
+    "error": null,
+    "phrases": {
+      "pangram": {
+        "en": 10,
+        "ru": 30,
+        "ru_lat": 24,
+        "kk": 41
+      },
+      "greeting": {
+        "en": 9,
+        "ru": 20,
+        "ru_lat": 15,
+        "kk": 25
+      },
+      "tokenization": {
+        "en": 14,
+        "ru": 26,
+        "ru_lat": 24,
+        "kk": 38
+      }
+    },
+    "totals": {
+      "en": 33,
+      "ru": 76,
+      "ru_lat": 63,
+      "kk": 104
+    }
+  },
+  {
     "model": "Anthropic claude-sonnet-5-5 (API count_tokens)",
     "source": "claude-sonnet-5-5",
     "error": "пропущено: нет ANTHROPIC_API_KEY",

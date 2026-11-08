@@ -35,6 +35,17 @@ MODELS = [
     ("Mistral Nemo (Tekken)", "hf", "mistralai/Mistral-Nemo-Instruct-2407"),
     ("Gemma 3", "hf", "unsloth/gemma-3-4b-it"),
     ("Llama 3.1", "hf", "NousResearch/Meta-Llama-3.1-8B-Instruct"),
+    # более новые модели
+    ("Llama 4 Scout", "hf", "unsloth/Llama-4-Scout-17B-16E-Instruct"),
+    ("Qwen3.5", "hf", "Qwen/Qwen3.5-397B-A17B"),
+    ("DeepSeek-V3.2", "hf", "deepseek-ai/DeepSeek-V3.2"),
+    ("GLM-5 (Z.ai)", "hf", "zai-org/GLM-5"),
+    ("Gemma 4", "hf", "google/gemma-4-31B-it"),
+    ("MiniMax-M2", "hf", "MiniMaxAI/MiniMax-M2"),
+    ("OLMo 3", "hf", "allenai/Olmo-3-7B-Instruct"),
+    ("NVIDIA Nemotron Nano v2", "hf", "nvidia/NVIDIA-Nemotron-Nano-9B-v2"),
+    ("IBM Granite 4.0", "hf", "ibm-granite/granite-4.0-h-small"),
+    ("Microsoft Phi-4", "hf", "microsoft/phi-4"),
 ]
 
 
