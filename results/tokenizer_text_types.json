@@ -1,0 +1,540 @@
+[
+  {
+    "category": "слово и регистр",
+    "text": "strawberry",
+    "chars": 10,
+    "utf8_bytes": 10,
+    "cl100k_base": {
+      "tokens": 3,
+      "pieces": [
+        "str",
+        "aw",
+        "berry"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 3,
+      "pieces": [
+        "st",
+        "raw",
+        "berry"
+      ]
+    }
+  },
+  {
+    "category": "слово и регистр",
+    "text": " strawberry",
+    "chars": 11,
+    "utf8_bytes": 11,
+    "cl100k_base": {
+      "tokens": 1,
+      "pieces": [
+        " strawberry"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 1,
+      "pieces": [
+        " strawberry"
+      ]
+    }
+  },
+  {
+    "category": "слово и регистр",
+    "text": "Strawberry",
+    "chars": 10,
+    "utf8_bytes": 10,
+    "cl100k_base": {
+      "tokens": 3,
+      "pieces": [
+        "Str",
+        "aw",
+        "berry"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 3,
+      "pieces": [
+        "Str",
+        "aw",
+        "berry"
+      ]
+    }
+  },
+  {
+    "category": "слово и регистр",
+    "text": "STRAWBERRY",
+    "chars": 10,
+    "utf8_bytes": 10,
+    "cl100k_base": {
+      "tokens": 4,
+      "pieces": [
+        "ST",
+        "RAW",
+        "B",
+        "ERRY"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 4,
+      "pieces": [
+        "ST",
+        "RAW",
+        "B",
+        "ERRY"
+      ]
+    }
+  },
+  {
+    "category": "слово и регистр",
+    "text": "s t r a w b e r r y",
+    "chars": 19,
+    "utf8_bytes": 19,
+    "cl100k_base": {
+      "tokens": 10,
+      "pieces": [
+        "s",
+        " t",
+        " r",
+        " a",
+        " w",
+        " b",
+        " e",
+        " r",
+        " r",
+        " y"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 10,
+      "pieces": [
+        "s",
+        " t",
+        " r",
+        " a",
+        " w",
+        " b",
+        " e",
+        " r",
+        " r",
+        " y"
+      ]
+    }
+  },
+  {
+    "category": "имя",
+    "text": "Balnur",
+    "chars": 6,
+    "utf8_bytes": 6,
+    "cl100k_base": {
+      "tokens": 3,
+      "pieces": [
+        "Bal",
+        "n",
+        "ur"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 2,
+      "pieces": [
+        "Bal",
+        "nur"
+      ]
+    }
+  },
+  {
+    "category": "имя",
+    "text": "Балнур",
+    "chars": 6,
+    "utf8_bytes": 12,
+    "cl100k_base": {
+      "tokens": 4,
+      "pieces": [
+        "Б",
+        "ал",
+        "н",
+        "ур"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 3,
+      "pieces": [
+        "Бал",
+        "н",
+        "ур"
+      ]
+    }
+  },
+  {
+    "category": "числа",
+    "text": "1234567890",
+    "chars": 10,
+    "utf8_bytes": 10,
+    "cl100k_base": {
+      "tokens": 4,
+      "pieces": [
+        "123",
+        "456",
+        "789",
+        "0"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 4,
+      "pieces": [
+        "123",
+        "456",
+        "789",
+        "0"
+      ]
+    }
+  },
+  {
+    "category": "числа",
+    "text": "3.14159265",
+    "chars": 10,
+    "utf8_bytes": 10,
+    "cl100k_base": {
+      "tokens": 5,
+      "pieces": [
+        "3",
+        ".",
+        "141",
+        "592",
+        "65"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 5,
+      "pieces": [
+        "3",
+        ".",
+        "141",
+        "592",
+        "65"
+      ]
+    }
+  },
+  {
+    "category": "числа",
+    "text": "1 000 000",
+    "chars": 9,
+    "utf8_bytes": 9,
+    "cl100k_base": {
+      "tokens": 5,
+      "pieces": [
+        "1",
+        " ",
+        "000",
+        " ",
+        "000"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 5,
+      "pieces": [
+        "1",
+        " ",
+        "000",
+        " ",
+        "000"
+      ]
+    }
+  },
+  {
+    "category": "числа",
+    "text": "2026-11-08",
+    "chars": 10,
+    "utf8_bytes": 10,
+    "cl100k_base": {
+      "tokens": 6,
+      "pieces": [
+        "202",
+        "6",
+        "-",
+        "11",
+        "-",
+        "08"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 6,
+      "pieces": [
+        "202",
+        "6",
+        "-",
+        "11",
+        "-",
+        "08"
+      ]
+    }
+  },
+  {
+    "category": "арифметика",
+    "text": "123456 + 654321 = 777777",
+    "chars": 24,
+    "utf8_bytes": 24,
+    "cl100k_base": {
+      "tokens": 10,
+      "pieces": [
+        "123",
+        "456",
+        " +",
+        " ",
+        "654",
+        "321",
+        " =",
+        " ",
+        "777",
+        "777"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 10,
+      "pieces": [
+        "123",
+        "456",
+        " +",
+        " ",
+        "654",
+        "321",
+        " =",
+        " ",
+        "777",
+        "777"
+      ]
+    }
+  },
+  {
+    "category": "код",
+    "text": "def hello():\n    return 42",
+    "chars": 26,
+    "utf8_bytes": 26,
+    "cl100k_base": {
+      "tokens": 7,
+      "pieces": [
+        "def",
+        " hello",
+        "():\n",
+        "   ",
+        " return",
+        " ",
+        "42"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 7,
+      "pieces": [
+        "def",
+        " hello",
+        "():\n",
+        "   ",
+        " return",
+        " ",
+        "42"
+      ]
+    }
+  },
+  {
+    "category": "JSON",
+    "text": "{\"name\": \"Балнур\", \"age\": 30}",
+    "chars": 29,
+    "utf8_bytes": 35,
+    "cl100k_base": {
+      "tokens": 15,
+      "pieces": [
+        "{\"",
+        "name",
+        "\":",
+        " \"",
+        "Б",
+        "ал",
+        "н",
+        "ур",
+        "\",",
+        " \"",
+        "age",
+        "\":",
+        " ",
+        "30",
+        "}"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 14,
+      "pieces": [
+        "{\"",
+        "name",
+        "\":",
+        " \"",
+        "Бал",
+        "н",
+        "ур",
+        "\",",
+        " \"",
+        "age",
+        "\":",
+        " ",
+        "30",
+        "}"
+      ]
+    }
+  },
+  {
+    "category": "URL",
+    "text": "https://github.com/bespergenova-spec/llm_experiments",
+    "chars": 52,
+    "utf8_bytes": 52,
+    "cl100k_base": {
+      "tokens": 14,
+      "pieces": [
+        "https",
+        "://",
+        "github",
+        ".com",
+        "/b",
+        "esper",
+        "gen",
+        "ova",
+        "-spec",
+        "/",
+        "ll",
+        "m",
+        "_ex",
+        "periments"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 15,
+      "pieces": [
+        "https",
+        "://",
+        "github",
+        ".com",
+        "/b",
+        "esper",
+        "gen",
+        "ova",
+        "-spec",
+        "/",
+        "ll",
+        "m",
+        "_ex",
+        "per",
+        "iments"
+      ]
+    }
+  },
+  {
+    "category": "эмодзи",
+    "text": "☕",
+    "chars": 1,
+    "utf8_bytes": 3,
+    "cl100k_base": {
+      "tokens": 2,
+      "pieces": [
+        "<E2 98>",
+        "<95>"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 2,
+      "pieces": [
+        "<E2 98>",
+        "<95>"
+      ]
+    }
+  },
+  {
+    "category": "эмодзи",
+    "text": "😀",
+    "chars": 1,
+    "utf8_bytes": 4,
+    "cl100k_base": {
+      "tokens": 2,
+      "pieces": [
+        "<F0 9F 98>",
+        "<80>"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 1,
+      "pieces": [
+        "😀"
+      ]
+    }
+  },
+  {
+    "category": "эмодзи",
+    "text": "👨‍👩‍👧",
+    "chars": 5,
+    "utf8_bytes": 18,
+    "cl100k_base": {
+      "tokens": 13,
+      "pieces": [
+        "<F0 9F>",
+        "<91>",
+        "<A8>",
+        "<E2 80>",
+        "<8D>",
+        "<F0 9F>",
+        "<91>",
+        "<A9>",
+        "<E2 80>",
+        "<8D>",
+        "<F0 9F>",
+        "<91>",
+        "<A7>"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 8,
+      "pieces": [
+        "<F0 9F 91>",
+        "<A8>",
+        "‍",
+        "<F0 9F 91>",
+        "<A9>",
+        "‍",
+        "<F0 9F 91>",
+        "<A7>"
+      ]
+    }
+  },
+  {
+    "category": "пробелы",
+    "text": "    ",
+    "chars": 4,
+    "utf8_bytes": 4,
+    "cl100k_base": {
+      "tokens": 1,
+      "pieces": [
+        "    "
+      ]
+    },
+    "o200k_base": {
+      "tokens": 1,
+      "pieces": [
+        "    "
+      ]
+    }
+  },
+  {
+    "category": "пробелы",
+    "text": "\n\n\n",
+    "chars": 3,
+    "utf8_bytes": 3,
+    "cl100k_base": {
+      "tokens": 1,
+      "pieces": [
+        "\n\n\n"
+      ]
+    },
+    "o200k_base": {
+      "tokens": 1,
+      "pieces": [
+        "\n\n\n"
+      ]
+    }
+  }
+]
